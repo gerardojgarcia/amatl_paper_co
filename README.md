@@ -1,75 +1,76 @@
-# Nuxt Minimal Starter
+# **Amatl – Handmade Paper Studio Website**
+*Built with Nuxt 4, Tailwind CSS, and Bun*
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+---
 
-## Setup
+## **Overview**
+**Amatl** is a boutique handmade paper studio with locations in **Los Angeles, California** and **San Miguel de Allende, Mexico**. The studio specializes in creating artisanal, plant-based papers crafted from **native fibers unique to each region**. Seasonal, cultural, and botanical elements—such as flowers, seeds, grasses, and natural dyes—are incorporated into each sheet to celebrate ecological diversity and traditional papermaking practices.
 
-Make sure to install dependencies:
+This website serves as the digital home for Amatl’s products, workshops, and studio narrative. It showcases the artistry behind handmade paper, highlights the studio’s regional focus, and provides a seamless experience for browsing collections, learning about techniques, and connecting with the studio.
 
-```bash
-# npm
-npm install
+---
 
-# pnpm
-pnpm install
+## **Project Purpose**
+The goal of this project is to build a modern, responsive, and component-driven landing site that:
 
-# yarn
-yarn install
+- Introduces visitors to Amatl’s mission, materials, and regional studios  
+- Highlights featured handmade papers and seasonal collections  
+- Presents upcoming workshops, exhibitions, or collaborations  
+- Provides clear pathways for purchasing products or contacting the studio  
+- Supports future expansion into a full e-commerce experience  
+- Utilizes clean, scalable components powered by JSON-driven data and composables  
 
-# bun
-bun install
-```
+This site represents the studio’s identity: **natural, minimal, organic, and rooted in place**.
 
-## Development Server
+---
 
-Start the development server on `http://localhost:3000`:
+## **Tech Stack**
 
-```bash
-# npm
-npm run dev
+### **Frontend Framework**
+- **Nuxt 4** (Vue 3, Nitro, server routes, file-based routing)  
+- Optimized for performance, static generation (`bun run generate`), and scalable component organization  
 
-# pnpm
-pnpm dev
+### **Styling**
+- **Tailwind CSS**  
+  - Utility-first styling  
+  - Custom theme tokens for Amatl’s brand palette  
+  - Built-in responsive design and dark mode support  
 
-# yarn
-yarn dev
+### **Package Manager**
+- **Bun**  
+  - Fast dependency installation  
+  - High-performance dev server  
+  - Efficient builds for Nuxt 4  
 
-# bun
-bun run dev
-```
+---
 
-## Production
+## **Data Structure**
+- **JSON-based content** for:
+  - Product collections  
+  - Shop sections  
+  - Workshops  
+  - Testimonials  
+  - Navigation  
 
-Build the application for production:
+Components consume this data using `v-for` loops for clean, scalable rendering.
 
-```bash
-# npm
-npm run build
+---
 
-# pnpm
-pnpm build
+## **Component-Driven Architecture**
+- Reusable UI components (Hero, SectionHeading, ProductGrid, WorkshopList, ContactForm, Footer, etc.)  
+- Layouts for the landing page and future content pages  
+- API-ready structure for future e-commerce or booking integrations  
 
-# yarn
-yarn build
+---
 
-# bun
-bun run build
-```
+## **Project Goals**
+- Launch an elegant landing page introducing Amatl and its offerings  
+- Build a modular structure that can expand into:
+  - Shop pages  
+  - Inventory displays  
+  - Workshop registration  
+  - Blog or process journal  
+- Maintain a minimal, nature-inspired aesthetic aligned with Amatl’s brand identity  
+- Optimize for speed, clarity, and accessibility  
 
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+---
